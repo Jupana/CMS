@@ -1,0 +1,166 @@
+body {
+	 background-color: palegreen;;
+
+}
+
+.background_main {
+	background-image: url("../img/fondo1.jpg");
+	width: 100%;
+	height: 50vh;
+	background-size: 800px;
+	background-position: center;
+	position:relative;/* la sobra de la caja se puso pe toata pagina y poir eso pueso esta propriedad*/
+}
+/*la clase overlay es una caja creada en home  para que se vea el titulo del blog mas a la frente de la imagen */
+ .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.main_title {
+	width: 100%;
+	text-align: center;
+	color:white;
+	margin-top: 3vh !important;
+	position: bottom;
+	font-size:30px;
+
+}
+
+.post_container{
+	border: 5px solid green;
+	background-color: aquamarine;
+	border-radius: 100px;
+	padding: 50px;
+
+}
+
+.post_img {
+	width: 100%;
+	height:auto;
+	border-radius: 100px;
+	
+}
+
+.post_title ,
+.post_date{
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	color: red;
+
+}
+
+/*LOGIN ADMIN*/
+.login_container,
+.register_container{
+	width: 30%;
+	margin: 50px auto;
+	border:3px solid rgb(108, 21, 207);
+	border-radius: 20px;
+	background-color: plum;
+	padding: 35px;
+}
+
+.login_container > h2,
+.register_container > h2{
+	text-align: center;
+	color: rgb(255, 0, 200);
+	color:black;
+}
+
+.login_container > p,
+.register_container >p{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+
+.login_container >.input,
+.login_container >.input> .txtEmailLogin,
+.register_container >.input,
+.register_container >.input> .txtEmailRegister{
+	width: 100%;
+}
+
+.login_container > .button,
+.register_container > .button{
+	margin-top: 15px;
+}
+.new_post_container{
+	width: 60%;
+	margin: 30px auto;
+	background-color: rgb(159, 152, 251);
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 15px;
+ }
+ .new_post_container .input{
+	 width: 100%;
+ }
+
+ .new_post_container button{
+	 margin-top: 15px !important;
+	 float: right;
+}
+
+.post_main_img{
+
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+	overflow-y: hidden;
+	text-align: center;
+	z-index: -1;
+	border: 20px solid #8a9ae2;
+	border-radius: 800px !important;
+	
+
+}
+
+.post_main_body{
+	width: 60%;
+	background-color: #8a9ae2 ;
+	border: 1px solid white;
+	border-radius: 40px;
+	margin: 0 auto;
+	z-index: 1;
+	padding: 35px;
+	margin-top: 250px;
+
+
+}
+
+.btnMarkFavorite{
+	color:yellow;
+	cursor: pointer;
+	float: right;
+
+
+}
+
+.logo_container{
+	text-align: left;
+}
+
+.frm_logo{
+
+	width: 100%;
+
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+
+
+
+
